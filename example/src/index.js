@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './index.css'
-import App from './App'
+import Gallery from 'gallery-kulish'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<Gallery url='https://jsonplaceholder.typicode.com/photos' />, document.getElementById('root'))
